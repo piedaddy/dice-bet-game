@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel='stylesheet' href="style.css">
+  <title>Dice Rolling</title>
+</head>
+<body>
+  
+  <div class="side1" id ="dice" onclick="diceClick()"> </div>
+
+
+
+
+  <input type='number' id='bet' value=""/>
+  <button id="button" onclick= "betClick()"> Bet with me! </button>
+
+  <br>
+  <br>
+
+  <div>account balance</div>
+  <input type='number' id ='acc' class='balance' value="500" readonly='readonly'/>
+
+<!--   
+  <span class = "balance">100 USD</span> -->
+
+  <script src="index.js"></script>
+
+</body>
+</html>
+
+
+
+<!-- Put a text field on the page so that the user can place a bet. Somewhere on the page display also the users's account balance. Give the user some amount of money to start with. Allow the user to enter a number into the bet text field and place a bet with a button. Then the users rolls the dice. If the number 6 is rolled, the users wind 6 times his bet, otherwise he loses his bet. -->

@@ -1,0 +1,62 @@
+.side1 {
+  background-image: url(side1.png);
+  background-position: contain;
+  background-repeat: no-repeat;
+  width:70vw;
+  height:70vh;
+}
+
+.side2 {
+  background-image: url(side2.png);
+  background-position: contain;
+  background-repeat: no-repeat;
+  width:70vw;
+  height:70vh;
+}  
+
+.side3 {
+  background-image: url(side3.png);
+  background-position: contain;
+  background-repeat: no-repeat;
+  width:70vw;
+  height:70vh;
+}
+
+.side4 {
+  background-image: url(side4.png);
+  background-position: contain;
+  background-repeat: no-repeat;
+  width:70vw;
+  height:70vh;
+}
+
+.side5 {
+  background-image: url(side5.png);
+  background-position: contain;
+  background-repeat: no-repeat;
+  width:70vw;
+  height:70vh;
+}
+
+.side6 {
+  background-image: url(side6.png);
+  background-position: contain;
+  background-repeat: no-repeat;
+  width:70vw;
+  height:70vh;
+}
+
+
+
+.account {
+  text-decoration: none;
+}
+
+button{
+  background-color: pink;
+}
+
+.butt {
+  background-color: blue;
+  color:white;
+}
